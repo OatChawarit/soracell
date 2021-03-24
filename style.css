@@ -11,8 +11,8 @@
 /*------------------------------------------------------------------
     IMPORT FILES
 
-    Main color #06645d Meedigital
-    Main colot #06645d MeeSolar
+    Main color #007c77 Meedigital
+    Main colot #007c77 MeeSolar #007c77
 -------------------------------------------------------------------*/
 
 @import url(css/animate.css);
@@ -297,7 +297,7 @@ a img.aligncenter {
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
     clip: auto !important;
-    color: #06645d;
+    color: #007c77;
     display: block;
     font-size: 14px;
     font-size: 0.875rem;
@@ -353,7 +353,7 @@ a img.aligncenter {
     z-index: -1;
 }
 .navbar-dark .navbar-nav .nav-link.active{
-	color: #06645d;
+	color: #007c77;
 }
 .navbar-dark .navbar-nav .nav-link.active::after {
 	width: 100%;
@@ -363,11 +363,11 @@ a img.aligncenter {
 
 
 #mainNav.navbar-shrink .navbar-nav .nav-link{
-	color: #06645d;
+	color: #007c77;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link::after{
-	background: #06645d;
+	background: #007c77;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link.active{
@@ -544,7 +544,7 @@ xclip
 }
 
 .section.color1 {
-    background-color: #06645d;
+    background-color: #007c77;
 }
 
 .first-section {
@@ -729,7 +729,7 @@ xclip
 }
 
 .services-inner-box::after{
-	background: #06645d;
+	background: #007c77;
 	width: 0px;
 	height: 0px;
 	content: "";
@@ -787,7 +787,7 @@ xclip
 }
 
 .sim-btn{
-	background: #06645d; /*#333333;*/
+	background: #007c77; /*#333333;*/
 	color: #ffffff;
 	padding: 14px 20px;
 	border-radius: 100px;
@@ -1406,7 +1406,7 @@ xclip
 }
 
 .hover-up{
-	background: #06645d;
+	background: #007c77;
 }
 
 .service-widget .post-media_pp .hover-up{
@@ -1591,7 +1591,7 @@ hr.invis1 {
 }
 
 .filter-button-group button.active{
-	background: #06645d;
+	background: #007c77;
 	color: #fff;
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
 	border-radius: 100px 100px 0px 100px;
@@ -1658,7 +1658,7 @@ hr.invis1 {
 	position: absolute;
 	bottom: 5px;
 	right: 5px;
-	background: #06645d;
+	background: #007c77;
 	color: #fff;
 	padding: 10px 15px;
 	text-align: center;
@@ -1735,7 +1735,7 @@ hr.invis1 {
 }
 .our-team .pic{
     border-top: none;
-    border-bottom: 5px solid #06645d;
+    border-bottom: 5px solid #007c77;
     border-radius: 50% 50% 0 50%;
     overflow: hidden;
     transition: all 0.5s ease 0s;
@@ -1753,7 +1753,7 @@ hr.invis1 {
 .our-team .title{
     font-size: 22px;
     font-weight: 700;
-    color: #06645d;
+    color: #007c77;
     text-transform: uppercase;
     margin: 0 0 5px 0;
 }
@@ -1776,10 +1776,10 @@ hr.invis1 {
     height: 35px;
     line-height: 35px;
     border-radius: 50%;
-    border: 1px solid #06645d;
+    border: 1px solid #007c77;
     background: #fff;
     font-size: 17px;
-    color: #06645d;
+    color: #007c77;
     text-align: center;
     transition: all 0.5s ease 0s;
 }
@@ -1816,7 +1816,7 @@ hr.invis1 {
 .pricingTable .title{
     font-size: 35px;
     font-weight: 600;
-    color: #06645d;
+    color: #007c77;
     text-transform: uppercase;
     margin: 0 0 10px 0;
 }
@@ -1843,27 +1843,27 @@ hr.invis1 {
     position: relative;
     transition: all 0.3s ease 0s;
 }
-.pricingTable:hover .pricingTable-signup{ box-shadow: 0 0 10px #06645d; }
+.pricingTable:hover .pricingTable-signup{ box-shadow: 0 0 10px #007c77; }
 .pricingTable .pricingTable-signup:hover{
     color: #ffffff;
     background: #fff;
-    box-shadow: 0 0 10px #06645d, 0 0 10px #1c142b inset;
+    box-shadow: 0 0 10px #007c77, 0 0 10px #1c142b inset;
 }
-.pricingTable.blue .title{ color: #06645d; }
+.pricingTable.blue .title{ color: #007c77; }
 .pricingTable.blue .pricingTable-signup{ background: #333333; }
-.pricingTable.blue:hover .pricingTable-signup{ box-shadow: 0 0 10px #06645d; }
+.pricingTable.blue:hover .pricingTable-signup{ box-shadow: 0 0 10px #007c77; }
 .pricingTable.blue .pricingTable-signup:hover{
     color: #ffffff;
     background: #fff;
-    box-shadow:0 0 10px #06645d, 0 0 10px #1c142b inset;
+    box-shadow:0 0 10px #007c77, 0 0 10px #1c142b inset;
 }
-.pricingTable.red .title{ color: #06645d; }
+.pricingTable.red .title{ color: #007c77; }
 .pricingTable.red .pricingTable-signup{ background: #333333; }
-.pricingTable.red:hover .pricingTable-signup{ box-shadow: 0 0 10px #06645d; }
+.pricingTable.red:hover .pricingTable-signup{ box-shadow: 0 0 10px #007c77; }
 .pricingTable.red .pricingTable-signup:hover{
     color: #ffffff;
     background: #fff;
-    box-shadow:0 0 10px #06645d, 0 0 10px #1c142b inset;
+    box-shadow:0 0 10px #007c77, 0 0 10px #1c142b inset;
 }
 @media only screen and (max-width: 990px){
     .pricingTable{ margin-bottom: 30px; }
@@ -2500,7 +2500,7 @@ select.mobile-device {
 }
 
 .dmtop {
-    background-color: #06645d;
+    background-color: #007c77;
     z-index: 100;
     width: 50px;
     height: 50px;
