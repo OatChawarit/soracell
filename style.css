@@ -24,7 +24,7 @@
 @import url(css/font-awesome.min.css);
 
 /*------------------------------------------------------------------
-    SKELETON
+    SKELETON 
 -------------------------------------------------------------------*/
 
 .img-place {
@@ -392,7 +392,7 @@ a img.aligncenter {
 .main-banner{
 	display: table;
     width: 100%;
-	text-align: center;
+	text-align: center; 
 }
 .main-banner::after {
     content: " ";
@@ -403,12 +403,36 @@ a img.aligncenter {
     right: 0;
     background-color: #000;
     z-index: 0;
-    opacity: .4;
+    opacity: .3;
 }
+
+.head-main-banner {
+    margin: auto; 
+    position: absolute; 
+    top: 30%; left: 20%;
+     bottom: auto; right: auto;
+     text-align: left !important;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .head-main-banner {
+        margin: auto; 
+        position: absolute; 
+        top: auto; left: auto;
+         bottom: auto; right: auto;
+         text-align: center !important;
+    }
+
+    .heading{
+        vertical-align: middle;
+    }
+}
+
+
 .heading{
 	color: #fff;
 	display: table-cell;
-	vertical-align: middle;
+    /* vertical-align: middle; */
 	position: relative;
 	z-index: 1;
 }
